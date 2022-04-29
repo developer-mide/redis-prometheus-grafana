@@ -1,4 +1,4 @@
-# Postgres-Exporter with Prometheus and Grafana #
+# Redis-Exporter with Prometheus and Grafana #
 A Remote Dictionary server (Redis) Exporter, with Prometheus and Grafana for monitoring. 
 
 ## Table of Content ##
@@ -11,7 +11,6 @@ A Remote Dictionary server (Redis) Exporter, with Prometheus and Grafana for mon
 Run
 ```
     cd redisDataMonitor && docker-compose up -d
-
 ```
 The command above changes directory to redis and fire up docker-container 
 * *(Make sure docker and docker-compose is installed)* *
@@ -19,13 +18,12 @@ The command above changes directory to redis and fire up docker-container
 Go to [http://localhost:3000](http://localhost:3000)
 Prometheus will be available [http://localhost:9090](http://localhost:9090)
 
-
 ## Configure Grafana ##
 
 ![alt text](./adding-redis.png)
 
 Hover on **+** icon, click Import to add Grafana dashboard 
-
+_or use the code 763_
 
 ## License ##
 MIT License
