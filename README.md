@@ -1,5 +1,5 @@
-# Redis-Exporter with Prometheus and Grafana #
-A Remote Dictionary server (Redis) Exporter, with Prometheus and Grafana for monitoring. 
+# Redis-Exporter with Prometheus and Grafana # 
+A Remote Dictionary server (Redis) Exporter, with Prometheus and Grafana for monitoring:speak_no_evil:. 
 
 ## Table of Content ##
 1. How to install
@@ -24,6 +24,12 @@ Prometheus will be available [http://localhost:9090](http://localhost:9090)
 
 Hover on **+** icon, click Import to add Grafana dashboard 
 _or use the code 763_
+
+Then you should have something like this
+
+![alt text](./redis2.png)
+
+Hooray :+1: you have done it :
 
 ## License ##
 MIT License
